@@ -19,6 +19,16 @@
     <meta name="twitter:title" content="Bhanu Prakash Kanakamedala | Portfolio" />
     <meta name="twitter:description" content="Full Stack Developer crafting digital masterpieces" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <script>
+      (function () {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+          document.documentElement.classList.remove("light");
+        } else {
+          document.documentElement.classList.add("light");
+        }
+      })();
+    </script>
 
     <script type="application/ld+json">
     {

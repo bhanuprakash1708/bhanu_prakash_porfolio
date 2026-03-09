@@ -13,9 +13,11 @@ const ThemeToggle = () => {
 
   useEffect(() => {
     const saved = localStorage.getItem("theme");
-    if (saved === "light") {
-      setIsDark(false);
+    if (saved === "dark") {
+      setIsDark(true);
+      return;
     }
+    setIsDark(false);
   }, []);
 
   useEffect(() => {

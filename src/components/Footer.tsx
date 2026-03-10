@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => (
   <footer className="border-t border-border py-8 px-6 md:px-8">
@@ -18,9 +18,6 @@ const Footer = () => (
       <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
         <p className="text-xs text-muted-foreground">
           © {new Date().getFullYear()} Bhanu Prakash Kanakamedala. All rights reserved.
-        </p>
-        <p className="text-xs text-muted-foreground flex items-center gap-1">
-          Built with <Heart size={12} className="text-primary fill-primary animate-pulse" /> and lots of coffee
         </p>
       </div>
     </div>
